@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>GameD RSS Feed</title>
+  <link>http://www.mark-bonnici.com/gamed/</link>
+  <description>The use of digital and video games to educate, entertain and empower individuals</description>
+  
+  <item>
+	<title>Assassin's Creed Out Now!</title>
+	<link>http://www.mark-bonnici.com/gamed/latestnews/assacreed.html</link>
+	<pubDate>Sar,3 Nov 2012 16:23:41 GMT</pubDate>
+	<description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at urna dui. Nam rhoncus nulla vitae tellus congue eget eleifend dui pretium. Ut neque lacus, tempus at ultrices tempus, rutrum sed diam. Suspendisse potenti. Pellentesque urna nulla, iaculis at malesuada at, tincidunt vel ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent scelerisque erat volutpat sapien condimentum sit amet adipiscing eros ornare. Fusce vel libero dui. Suspendisse volutpat, purus ac sodales tristique, nunc nisl vehicula justo, facilisis facilisis turpis mi a eros.</description>
+  </item>
+  
+  <item>
+	<title>Need For Speed Most Wanted Out Now!</title>
+	<link>http://www.mark-bonnici.com/gamed/latestnews/nos.html</link>
+	<pubDate>Fri, 12 Oct 2012 16:23:41 GMT</pubDate>
+	<description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at urna dui. Nam rhoncus nulla vitae tellus congue eget eleifend dui pretium. Ut neque lacus, tempus at ultrices tempus, rutrum sed diam. Suspendisse potenti. Pellentesque urna nulla, iaculis at malesuada at, tincidunt vel ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent scelerisque erat volutpat sapien condimentum sit amet adipiscing eros ornare. Fusce vel libero dui. Suspendisse volutpat, purus ac sodales tristique, nunc nisl vehicula justo, facilisis facilisis turpis mi a eros.</description>
+  </item>
+  
+  <item>
+	<title>Fifa 13 Out Now!</title>
+	<link>http://www.mark-bonnici.com/gamed/latestnews/fifa13.html</link>
+	<pubDate>Wed, 15 Aug 2012 16:23:41 GMT</pubDate>
+	<description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at urna dui. Nam rhoncus nulla vitae tellus congue eget eleifend dui pretium. Ut neque lacus, tempus at ultrices tempus, rutrum sed diam. Suspendisse potenti. Pellentesque urna nulla, iaculis at malesuada at, tincidunt vel ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent scelerisque erat volutpat sapien condimentum sit amet adipiscing eros ornare. Fusce vel libero dui. Suspendisse volutpat, purus ac sodales tristique, nunc nisl vehicula justo, facilisis facilisis turpis mi a eros.</description>
+  </item>
+</channel>
+</rss>

@@ -1,0 +1,294 @@
+@charset "UTF-8";
+/* CSS Document */
+@font-face {
+	font-family: 'BernSans';
+	src:url(../fonts/BernSansCT-Regular_0.otf);
+}
+#headerlogo {
+	z-index: -1;
+}
+ul {
+	list-style: none;
+}
+#hfwrap {
+	height: 400px;
+}
+#main-header {
+	height: 200px;
+	background-image: url(../images/headerlogo.png);
+	background-repeat: no-repeat;
+}
+#latestNews {
+	height: 400px;
+	width: 390px;
+	margin-top: 20px;
+}
+#gameRel {
+	height: 400px;
+	width: 220px;
+	margin-top: 20px;
+}
+#upcomingEvents {
+	height: 400px;
+	width: 310px;
+	margin-top: 20px;
+}
+#3col {
+	height: 400px;
+	margin-top: 10px;
+}
+#slide-small {
+	height: 150px;
+	width: 300px;
+}
+#featured {
+	position: relative;
+}
+a#left-arrow, a#right-arrow {
+	position: absolute;
+	z-index: 10000;
+	top: 375px;
+	width: 32px;
+	height: 68px;
+	text-indent: -9999px;
+}
+#slides {
+	clear: both;
+	width: 960px;
+	height: 400px;
+	overflow: hidden;
+	position: relative;
+	margin-top: 60px;
+}
+#controllers {
+	background: url(../images/slidesmalback.jpg) repeat-x;
+	height: 150px;
+	position: relative;
+}
+.controller {
+	display: block;
+	float: left;
+	position: relative;/*margin-right: 21px;*/
+}
+.controller a {
+	display: block;
+}
+.controller a.active {
+	/*print red*/
+	background: url(../images/selectedslider.jpg) repeat-x;
+	height: 150px;
+	position: relative;
+}
+#latestNews {
+	background: url(../images/latestnewsback.jpg) repeat-x;
+}
+#gameRel {
+	background: url(../images/gamerelback.jpg) repeat-x;
+}
+#upcomingEvents {
+	background: url(../images/agendaback.jpg) repeat-x;
+}
+#main-footer {
+	margin-top: 20px;
+	height: 50px;
+	background-color: #21529e;
+	color: #FFF;
+}
+#copyright-info {
+	text-align: center;
+	margin-top: 15px;
+}
+#designer {
+	text-align: center;
+	margin-top: 15px;
+}
+body {
+	background-image: url(../images/back.jpg);
+	background-repeat: repeat-x;
+	background-color: #bebebe;
+}
+@font-face {
+	font-family: 'Harrison';
+	src: url(../fonts/Harrison.ttf);
+}
+#latestNews h1 {
+	font-family: 'Harrison', 'Helvetica Neue', serif;
+	font-size: 34px;
+	color: #601848;
+	margin-top: 25px;
+	text-align: center;
+}
+#gameRel h1 {
+	font-family: 'Harrison', 'Helvetica Neue', serif;
+	font-size: 34px;
+	color: #601848;
+	margin-top: 25px;
+	text-align: center;
+}
+#upcomingEvents h1 {
+	font-family: 'Harrison', 'Helvetica Neue', serif;
+	font-size: 34px;
+	color: #601848;
+	margin-top: 25px;
+	text-align: center;
+}
+#articles {
+	margin-right: 30px;
+	margin-left: 30px;
+}
+#articles h2 {
+	margin: 10px 0 0 0;
+	font: italic 14px helvetica, geneva, sans serif;
+	color: #990100;
+}
+#articles p {
+	font: 12px helvetica, geneva, sans serif;
+	color: #000000;
+}
+#articles #blogwrap {
+	padding: 0 0 0 20px;
+}
+#articles .entry {
+	margin: 20px 0 0 80px;
+}
+#navigation {
+	float: right;
+	position: relative;
+}
+#main-nav {
+	list-style: none;
+	position: relative;
+	width: 100%;
+	z-index: 400;
+	margin-top: 20px;
+	text-align: right;
+}
+#main-nav li {
+	list-style: none;
+	position: relative;
+	line-height: 20px;
+}
+#main-nav li a {
+	display: inline-block;
+	line-height: 32px;
+	font-size: 11px;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 0 25px;
+	color: #ffffff;
+	background: #000000;
+	zoom: 1;
+ *display: inline;
+}
+#main-nav li.current-menu-item > a {
+	background: #ff6b00;
+}
+#main-nav ul.sub-menu li.info a {
+	color: #555;
+	font-style: italic;
+}
+#main-nav A:hover {
+	background: #863800;
+}
+#pageTitle {
+	clear: both;
+	width: 960px;
+	height: 100px;
+	overflow: hidden;
+	position: relative;
+	margin-top: 40px;
+	background-color:rgba(0,0,0,.5)
+}
+#pageTitle h1{
+	font-family: 'BernSans', 'Harrison', 'Helvetica Neue', serif;
+	font-size: 40px;
+	color:#FFF;
+	margin-top: 20px;
+	text-align: center;
+}
+#pageTitle p{
+	font-family: 'BernSans', 'Harrison', 'Helvetica Neue', serif;
+	font-size: 14px;
+	color:#b09c9b;
+	text-align: center;
+	margin-top:-30px;
+}
+#pageTitle p a{
+	text-decoration:none;
+	color:#b09c9b;
+}
+#content{
+	background-color: #FFF;
+	margin-top: 20px;
+	width: 960px;
+	overflow: hidden;
+	position: relative;
+	clear: both;
+	visibility: inherit;
+}
+#contenttext{
+	width:900px;
+	margin:30px 30px 30px 30px;
+	font-family:"Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
+	font-size:14px;
+	text-align:justify;	
+}
+#video{
+	margin-top:20px;
+	overflow:hidden;
+	position:relative;
+	clear:both;
+	width:960px;
+	height:400px;
+}
+#games-home {
+	clear: both;
+	width: 960px;
+	height: 100px;
+	overflow: hidden;
+	position: relative;
+	margin-top: 20px;
+	background-color:#601848;
+}
+#games-home h1{
+	font-family: 'BernSans', 'Harrison', 'Helvetica Neue', serif;
+	font-size: 40px;
+	color:#FFF;
+	margin-top: 20px;
+	text-align: center;
+}
+#games-home h1 a{
+	font-family: 'BernSans', 'Harrison', 'Helvetica Neue', serif;
+	font-size: 40px;
+	color:#FFF;
+	margin-top: 20px;
+	text-align: center;
+	text-decoration:none;
+}
+#games-home p{
+	font-family: 'BernSans', 'Harrison', 'Helvetica Neue', serif;
+	font-size: 14px;
+	color:#b09c9b;
+	text-align: center;
+	margin-top:-30px;
+}
+#headercontent{
+	background-color:#ff4501;
+	width:960px;
+	height:70px;
+	position:relative;
+	overflow:hidden;
+	clear:both
+}
+#headercontent header{
+	position:relative;
+	font-family: 'BernSans', 'Harrison', 'Helvetica Neue', serif;
+	font-size: 40px;
+	color:#FFF;
+	margin-top:10px;
+	margin-left:20px;
+	text-align:center;
+}
+#game{
+	margin-top:20px;
+}
